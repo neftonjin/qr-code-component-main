@@ -2,26 +2,29 @@
 
 body{
     background-color: lightgrey;
+      
 }
 img{
     max-width: 100%;
     height: auto;
     border-radius: 5%;
-    width: 325px;
+    width: 340px;
     margin: 10px auto;
 
 }
 .wrrapper{
-   
-    
+    position: relative;
+    top: 50px;
     display: flex;
+    margin: auto;
     flex-direction: column;
     border-radius: 5%;
     background-color: white;
     margin: 0 auto;
-    width: 350px;
+    width: 375px;
     height: 550px;
-    
+    min-width: 375px;
+    padding: 5px 0 20px 0;
    
 
 }
